@@ -4,16 +4,7 @@ import MovieCard from "./MovieCard";
 import "./App.css";
 import SearchIcon from "./search.svg";
 
-const API_URL = "http://www.omdbapi.com/?apikey=1a53d214";
-
-const movie1 = {
-  Title: "Harry Potter and the Forbidden Journey",
-  Year: "2010",
-  imdbID: "tt1756545",
-  Type: "movie",
-  Poster:
-    "https://m.media-amazon.com/images/M/MV5BNDM0YzMyNGUtMTU1Yy00OTE2LWE5NzYtZDZhMTBmN2RkNjg3XkEyXkFqcGdeQXVyMzU5NjU1MDA@._V1_SX300.jpg",
-};
+const API_URL = "https://www.omdbapi.com/?apikey=1a53d214";
 
 const App = () => {
 
